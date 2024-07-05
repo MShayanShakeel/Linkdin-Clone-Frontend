@@ -1,0 +1,21 @@
+.banner-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Banner-contant {
+  width: 65%;
+  margin: auto;
+}
+.Left-side img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 0.5rem 0.5rem;
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .Banner-contant {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,72 @@
+.Card-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+
+.content h4,
+.content p {
+  margin: 0px;
+  padding: 0px;
+}
+.Card-Content {
+  display: -webkit-inline-box;
+  padding: 0.3rem 1.8rem;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  min-width: 200px;
+  max-width: 18%;
+  margin-bottom: 1rem;
+}
+.icon {
+  margin: auto 1rem auto 0rem;
+}
+.card-2-main {
+  background: rgb(241, 242, 247);
+  padding: 1rem 1rem;
+}
+
+.Card-Content-2 {
+  width: 24.25%;
+  align-items: center;
+  padding: 2rem 1rem;
+  border-radius: 3px;
+  min-width: 200px;
+}
+.Card-Content-2 img {
+  width: 3rem;
+  border-radius: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Card-main-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.center-class {
+  text-align: center;
+}
+
+.card-2-main-3 {
+  padding: 1rem 1rem;
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .Card-main-2 {
+    overflow-x: auto;
+    margin: 0px;
+  }
+  .Card-Content-2 {
+    width: 100%;
+    min-width: 100%;
+  }
+  .Card-Content {
+    min-width: 90%;
+    /* max-width: 18%; */
+  }
+}

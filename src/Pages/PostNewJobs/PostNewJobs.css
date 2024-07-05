@@ -1,0 +1,8 @@
+.Input-span input {
+  width: 95%;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.Seprat-inner-div select {
+  width: 45%;
+}
